@@ -1,0 +1,211 @@
+/*
+Name - Parvinderjeet
+Student ID - 163830219
+*/
+body{
+    width: 95%;
+    height:100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(177, 64, 243, 0.3)),url(bg.jpg);
+    color: white;
+    margin: auto;
+}
+.home
+{
+    max-width: 1024px;
+    margin: auto;
+    display: grid;
+    margin-bottom: 2rem;
+    margin-top: 100px;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+}
+.img
+{
+    border-radius: 50%;
+    overflow: hidden;
+    width: 500px;
+    height: 500px;
+}
+
+.content 
+{  
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.heading {
+    padding-top: 20px;
+    font-size: 5rem;
+    text-transform: uppercase;
+    color: #e6e4e6;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.content h1 
+{
+    font-size: 50px;
+}
+.btn{
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 16px 40px;
+    border-radius: 500px;
+    display: inline-block;
+    font-weight: 500;
+    transition: all .4s ease-in-out;
+    background-size: 152% 100%;
+    background: aqua;
+    border: 2px solid rgb(255, 255, 255);
+}
+.btn:hover
+{
+    background: transparent;
+    border-color: aqua;
+    color: aqua;
+}
+/* ==================== About Page ==================== */
+.about {
+    background-color: #8d8135;
+    padding: 30px;
+}
+
+.about-content {
+    max-width: 1024px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+}
+
+.abt-span {
+    font-size: 1.6rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #ADEDEA;
+}
+
+.about-details {
+    font-size: 1.2rem;
+    line-height: 2.6rem;
+    font-weight: 300;
+}
+
+.about-details pre, span {
+    color: #fff;
+}
+
+.about-text p {
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+    text-align: justify;
+    margin-bottom: 1.5rem;
+    color: #fff;
+}
+
+.about-content {
+    padding-bottom: 60px;
+}
+/* ==================  education  ====================*/
+    .row2 {
+        display: flex;
+        height: auto;
+    }
+    .column1 {
+        flex: 20%;
+        padding: 10px;
+        height: auto;
+        text-align: center;
+        font-family: 'Century Gothic',sans-serif;
+
+      }
+    .column2 {
+        flex: 50%;
+        padding: 10px;
+        height: auto;
+        text-align: center;
+        font-family: 'Century Gothic',sans-serif;
+      }
+    
+    input[type=text], select, textarea {
+        width: 100%; 
+        padding: 14px; 
+        border-radius: 3px; 
+        margin-top: 5px; 
+        margin-bottom: 17px; 
+        border: 10px groove rgb(49, 227, 203); 
+        box-sizing: border-box; 
+        resize: vertical;
+      }
+      
+      input[type=submit] {
+        border-radius: 2px;
+        padding: 15px 19px;
+        background-color: #705fce;
+        color: white;
+        cursor: pointer;
+      }
+    
+      input[type=submit]:hover {
+        background-color: #5774f4;
+        -webkit-transition: all 0.5s;
+        -moz-transition: all 0.5s;
+        -o-transition: all 0.5s;
+        transition: all 0.5s;
+        cursor: pointer;
+      }
+      
+      #container {
+        border-radius: 7px;
+        background-color: #10f0b4ca;
+        padding: 16px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: italic;
+      } 
+    
+      .reveal-if-active {
+        display: none;
+      }
+
+.footer
+{
+    text-align: center;
+    margin-right: 20%;
+    margin-left: 20%;
+    background-color: black;
+}
+    .footer h4 {
+        color: #f9f9f9;
+        margin-bottom: 20px;
+        font-weight: 600;
+    }
+    
+    .footer p {
+        color: #f2fafa;
+        margin-bottom: 20px;
+    }
+    
+    .footer p span {
+        color: #f80808;
+        font-weight: 600;
+    }
+      @media only screen and (max-width: 400px) {
+        .section{
+            display: block; 
+         }
+         #About{
+             margin-left: 0px;
+             padding: 0px;
+         }
+         #info{
+             margin-left: 0px;
+             padding: 0px;
+         }
+         img {
+            display: block;
+            height: 400px;
+            width: 300px;
+         }
+      }

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta charset="UTF-8">
+    <title>Parvinderjeet||Personal Portfolio Website</title>
+
+    <link rel="stylesheet" href="warrior.css">
+    <script src="./script.js"></script>
+</head>
+<body>
+    <div class="home">
+    <img src="parvinder.jpg" class="img">
+
+        <div class="content">
+             <h1>I AM PARVINDERJEET KAUR</h1>
+            <p>Software developer</p>
+            <button type="button" class="btn">
+            <a href="resume.pdf" download="resume.pdf" style="color:rgb(16, 12, 225)"><b>Resume</b></button></a>
+            <button type="button" class="btn">
+                <a href="#container" style="color:rgb(16, 12, 225)"><b>Contact</b></button></a>
+        </div>
+    </div><br>
+    
+    <!-- about me -->
+    <h1 class="heading">ABOUT ME</h1>
+    <section class="about" id="about">
+        <div class="about-content">
+            <div class="about-details">
+                <span class="abt-span">Personal Information</span>
+                <pre><strong>AGE:</strong>              18</pre>
+                <pre><strong>EMAIL:</strong>            parvinderjeet-kaur@myseneca.ca</pre>
+                <pre><strong>STUDENT ID:</strong>       163830219</pre>
+                <pre><strong>CLASS SECTION:</strong>    NII</pre>
+                <pre><strong>INSTRUCTOR:</strong>       Mr. Robin Li</pre>
+            </div>
+            <div class="about-text">
+                <span class="abt-span">About Me and Academic Honesty</span>
+                <p>I declare that my assessment is wholly my own work in accordance with Seneca Academic Policy. No part of this assessment has been copied manually or electronically from any other source (including web sites) except for the information supplied by the WEB222 instructors and / or made available in this assessment for my use. I also declare that no part of this assignment has been distributed to other students.</p>
+                <span><strong>Date: </strong></span><p>14 Dec, 2022</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- education -->
+    <h1 class="heading">CURRENT EDUCATION</h1>
+    <div class="row2">
+        <div class="column1" style="background-color:rgb(91, 11, 11)">
+            <p>
+                <b>2020 - 2021</b>
+                <br><br>
+                 H.P.S. Public School
+            </p>
+        </div>
+        <div class="column2" style="background-color:rgb(131, 5, 87)">
+            <p>
+                acquired High school education.
+            </p>
+        </div>
+    </div>
+    <div class="row2">
+        <div class="column1" style="background-color:rgb(131, 5, 87)">
+            <p>
+                <b>2022 - 2024</b>
+                <br><br>
+                Seneca College Newnhamn Campus
+            </p>
+        </div>
+        <div class="column2" style="background-color:rgb(91, 11, 11)">
+            <p>
+                Advanced Diploma CPP Computer Programming program.
+            </p>
+        </div>
+    </div>
+
+    <!-- CONTACT ME  -->
+    <h1 class="heading">CONTACT ME</h1>
+    <div id="container">
+          <form action="https://httpbin.org/post" method="post">
+        
+            <label for="firstname">First Name</label>
+            <input type="text" id="firstname" name="firstname" placeholder="Enter your first name..."required>
+        
+            <label for="lastname">Last Name</label>
+            <input type="text" id="lastname" name="lastname" placeholder="Enter your last name..."required>
+      
+            <label for="email">Email Address</label>
+            <input type="text" id="email" name="email" placeholder="Enter your email here..."required>
+        
+             <label for="address">Address</label>
+             <input type="text" id="address" name="address" placeholder="Enter your address..."required> 
+      
+                
+             <label for="postalcode">Postal Code</label>
+             <input type="text" id="postalcode" name="postalcode" pattern="^[A-Za-z]\d[A-Za-z] ?\d[A-Za-z]\d$" placeholder="Enter your postal code here..."required> 
+      
+            <label for="city">City</label>
+      
+            <select id="city" name="city"required>
+              <option value="toronto">Toronto</option>
+              <option value="brampton">Brampton</option>
+              <option value="oakville">Oakville</option>
+              <option value="hamilton">Hamilton</option>
+              <option value="ottawa">Ottawa</option>
+              <option value="vaughan">Vaughan</option>
+             </select>
+      
+            <label for="status">Status</label><br>
+            <input type="radio" id="one" name="selection"required onclick=" checkButton()">
+            <label for="one"> Question</label>
+            <div class="radio_demo"></div>
+      
+            <input type="radio" id="two" name="selection"required onclick=" checkButton()">
+            <label for="two"> Comment</label>
+            <div class="radio_demo"></div>
+      
+            <input type="radio" id="three" name="selection"required onclick=" checkButton()">
+            <label for="three"> Hiring</label>
+            <div class="radio_demo">
+              <div id="reveal-if-active">
+
+                </div>
+            </div>
+            <textarea id="submit" name="submit" placeholder="" style="height:200px"required></textarea>
+            
+            <input type="submit" value="Submit">
+        
+          </form>
+        </div>
+        <footer class="footer">
+            <h4>Parvinderjeet kaur</h4>
+            <p>Thank you for visiting<br><br><span>Copyright&copy; 2022</span></p>
+                
+        </footer>
+  </body>
+</html>
+
